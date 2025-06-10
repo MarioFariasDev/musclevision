@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Seu Treino - MuscleCore AI</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="container">
+    <h1>🔹 Treino de <span id="nome-cliente"></span></h1>
+    <div id="treino-lista"></div>
+    <button onclick="voltar()">🔁 Voltar</button>
+</div>
+
+<script>
+    async function carregarTreino() {
+        const usuario = JSON.parse(localStorage.getItem("usuario"));
+        if (!usuario) return;
+
+        document.getElementById("nome-cliente").innerText = usuario.nome;
+
+        try {
+            const response = await fetch("data/exercicios.json");
+            const dados = await response.json();
+
+            const plano = dados[usuario.objetivo][usuario.nivel][usuario.dias];
+            const container = document.getElementById("treino-lista");
+
+            plano.forEach((dia, index) => {
+                const card = document.createElement("div");
+                card.className = "treino-card";
+                card.innerHTML = `
+            <h2>Dia ${index + 1}: ${dia.nome}</h2>
+            ${dia.exercicios.map(ex => `
+              <div class="ex-item">
+                <p><strong>Exercício:</strong> ${ex.exercicio}</p>
+                <p><strong>Séries:</strong> ${ex.series}</p>
+                <p><strong>Repetições:</strong> ${ex.repeticoes}</p>
+                <p><strong>Técnica:</strong> ${ex.tecnica}</p>
+                <p><strong>Descrição:</strong> ${ex.descricao}</p>
+                <label><input type="checkbox"> Marcar como concluído</label>
+                <hr/>
+              </div>
+            `).join("")}
+          `;
+                container.appendChild(card);
+            });
+        } catch (erro) {
+            document.getElementById("treino-lista").innerHTML = "<p>Erro ao carregar os treinos.</p>";
+            console.error(erro);
+        }
+    }
+
+    function voltar() {
+        localStorage.removeItem("usuario");
+        window.location.href = "index.html";
+    }
+
+    carregarTreino();
+</script>
+</body>
+</html>
