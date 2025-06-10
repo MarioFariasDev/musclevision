@@ -602,8 +602,220 @@
             {"exercicio": "Bird-dog", "series": 5, "repeticoes": "15", "tecnica": "Tradicional", "descricao": "Controle motor e estabilidade."}
           ]
         }
+      ],
+      "5": [
+        {
+          "nome": "Dia 1 - Pernas + Core Avançado",
+          "exercicios": [
+            {
+              "exercicio": "Agachamento frontal",
+              "series": 5,
+              "repeticoes": "12-15",
+              "tecnica": "Dropset",
+              "descricao": "Reduza a carga progressivamente para manter a intensidade até a falha."
+            },
+            {
+              "exercicio": "Prancha com peso",
+              "series": 5,
+              "repeticoes": "45-60s",
+              "tecnica": "Tradicional",
+              "descricao": "Mantenha o core firme, adicione carga para avançar."
+            }
+          ]
+        },
+        {
+          "nome": "Dia 2 - Core e Estabilidade Explosiva",
+          "exercicios": [
+            {
+              "exercicio": "Abdominal prancha lateral",
+              "series": 5,
+              "repeticoes": "45s cada lado",
+              "tecnica": "Tradicional",
+              "descricao": "Ativação máxima de oblíquos e glúteo médio."
+            },
+            {
+              "exercicio": "Bird-dog com pausa",
+              "series": 5,
+              "repeticoes": "12-15",
+              "tecnica": "Tradicional",
+              "descricao": "Mantenha estabilidade por 2 segundos no topo do movimento."
+            }
+          ]
+        },
+        {
+          "nome": "Dia 3 - Membros Inferiores + Cardio Funcional",
+          "exercicios": [
+            {
+              "exercicio": "Avanço com halteres",
+              "series": 4,
+              "repeticoes": "10-12",
+              "tecnica": "Bi-Set",
+              "descricao": "Sem descanso entre as passadas."
+            },
+            {
+              "exercicio": "Subida em banco",
+              "series": 4,
+              "repeticoes": "12",
+              "tecnica": "Tradicional",
+              "descricao": "Controle na descida para maior estímulo excêntrico."
+            }
+          ]
+        },
+        {
+          "nome": "Dia 4 - Estabilidade + Core Intenso",
+          "exercicios": [
+            {
+              "exercicio": "Prancha instável com bola",
+              "series": 4,
+              "repeticoes": "30-45s",
+              "tecnica": "Tradicional",
+              "descricao": "Desafie o equilíbrio e o core simultaneamente."
+            },
+            {
+              "exercicio": "Escalador (mountain climber)",
+              "series": 4,
+              "repeticoes": "30-45s",
+              "tecnica": "Circuito",
+              "descricao": "Alta intensidade, foco em resistência aeróbica e abdominal."
+            }
+          ]
+        },
+        {
+          "nome": "Dia 5 - Glúteos + Abdômen Finalizador",
+          "exercicios": [
+            {
+              "exercicio": "Elevação de quadril unilateral",
+              "series": 4,
+              "repeticoes": "12 cada perna",
+              "tecnica": "Rest-Pause",
+              "descricao": "Pausas curtas para estimular a falha muscular."
+            },
+            {
+              "exercicio": "Abdominal V",
+              "series": 4,
+              "repeticoes": "15-20",
+              "tecnica": "Tradicional",
+              "descricao": "Contraia fortemente e segure 1s no topo do movimento."
+            }
+          ]
+        }
+      ],
+      "6": [
+        {
+          "nome": "Dia 1 - Pernas Intensivo com Estabilidade",
+          "exercicios": [
+            {
+              "exercicio": "Agachamento com barra frontal",
+              "series": 5,
+              "repeticoes": "8-10",
+              "tecnica": "Dropset",
+              "descricao": "Reduza a carga ao atingir a falha para máxima ativação muscular."
+            },
+            {
+              "exercicio": "Passada andando com halteres",
+              "series": 4,
+              "repeticoes": "12 cada perna",
+              "tecnica": "Tradicional",
+              "descricao": "Controle a postura e o passo, evite impulsos."
+            }
+          ]
+        },
+        {
+          "nome": "Dia 2 - Core Dinâmico e Isométrico",
+          "exercicios": [
+            {
+              "exercicio": "Prancha com elevação alternada de perna",
+              "series": 4,
+              "repeticoes": "30-45s",
+              "tecnica": "Tradicional",
+              "descricao": "Mantenha quadril estável e o core contraído."
+            },
+            {
+              "exercicio": "Abdominal infra com pausa",
+              "series": 4,
+              "repeticoes": "15",
+              "tecnica": "Bi-Set",
+              "descricao": "Segure 1s no ponto de maior contração."
+            }
+          ]
+        },
+        {
+          "nome": "Dia 3 - Funcional com Cardio e Estímulo Metabólico",
+          "exercicios": [
+            {
+              "exercicio": "Burpees",
+              "series": 4,
+              "repeticoes": "12-15",
+              "tecnica": "Circuito",
+              "descricao": "Foco em execução rápida e precisa."
+            },
+            {
+              "exercicio": "Escalador com apoio instável",
+              "series": 4,
+              "repeticoes": "30-45s",
+              "tecnica": "Circuito",
+              "descricao": "Ativação cardiovascular + abdominal intensa."
+            }
+          ]
+        },
+        {
+          "nome": "Dia 4 - Posteriores de Coxa + Core Profundo",
+          "exercicios": [
+            {
+              "exercicio": "Stiff com halteres",
+              "series": 4,
+              "repeticoes": "10-12",
+              "tecnica": "Rest-Pause",
+              "descricao": "Faça uma pausa de 15s após a falha e continue por mais 3 reps."
+            },
+            {
+              "exercicio": "Prancha com rotação",
+              "series": 4,
+              "repeticoes": "30s",
+              "tecnica": "Tradicional",
+              "descricao": "Adicione rotação do tronco para desafiar oblíquos."
+            }
+          ]
+        },
+        {
+          "nome": "Dia 5 - Glúteos e Estabilidade Unilateral",
+          "exercicios": [
+            {
+              "exercicio": "Cadeira abdutora",
+              "series": 4,
+              "repeticoes": "15-20",
+              "tecnica": "Dropset",
+              "descricao": "Reduza peso e vá até a falha finalizando com alta intensidade."
+            },
+            {
+              "exercicio": "Agachamento pistols assistido",
+              "series": 3,
+              "repeticoes": "10 cada perna",
+              "tecnica": "Tradicional",
+              "descricao": "Desafie a força e o equilíbrio unilateral."
+            }
+          ]
+        },
+        {
+          "nome": "Dia 6 - Finalizador Funcional e Core Explosivo",
+          "exercicios": [
+            {
+              "exercicio": "Corrida estacionária com joelhos altos",
+              "series": 4,
+              "repeticoes": "45s",
+              "tecnica": "Circuito",
+              "descricao": "Intensidade alta para finalizar a semana com gasto calórico."
+            },
+            {
+              "exercicio": "Abdominal canivete",
+              "series": 4,
+              "repeticoes": "15-20",
+              "tecnica": "Tradicional",
+              "descricao": "Foco em força abdominal e mobilidade."
+            }
+          ]
+        }
       ]
     }
   }
 }
-
