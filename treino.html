@@ -24,7 +24,7 @@
             const response = await fetch("data/exercicios.json");
             const dados = await response.json();
 
-            const plano = dados[usuario.objetivo][usuario.nivel][usuario.dias];
+            const plano = dados[usuario.objetivo][usuario.nivel][parseInt(usuario.dias)];
             const container = document.getElementById("treino-lista");
 
             plano.forEach((dia, index) => {
